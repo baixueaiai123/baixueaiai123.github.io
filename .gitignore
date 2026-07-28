@@ -1,0 +1,9 @@
+node_modules/
+dist/
+tmp/
+output/
+.vite/
+.vite-dev.log
+.vite-dev.err.log
+*.local
+public/workflow/chi-xiao/chi-xiao-2077.mp4
