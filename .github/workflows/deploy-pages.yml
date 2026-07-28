@@ -12,7 +12,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  # Keep this workflow separate from GitHub's legacy branch-based Pages build.
+  # Sharing the generic "pages" group allowed the legacy job to cancel the
+  # Vite deployment, leaving the raw React source online and causing a blank page.
+  group: portfolio-vite-pages
   cancel-in-progress: true
 
 jobs:
@@ -57,4 +60,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
