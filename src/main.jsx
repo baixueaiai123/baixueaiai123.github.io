@@ -1362,7 +1362,7 @@ function WorkflowCabin({ onClose, onNavigate }) {
 }
 
 const contactChannels = [
-  { label: "邮箱", value: "2059797637@qq.com", status: "邮箱通道已连接", signal: "作品投递与面试邀约", note: "用于作品投递、面试邀约与项目沟通" },
+  { label: "邮箱", value: "15716301203@163.com", status: "邮箱通道已连接", signal: "作品投递与面试邀约", note: "用于作品投递、面试邀约与项目沟通" },
   { label: "微信", value: "yxg15716301203", status: "微信通道已连接", signal: "即时沟通与合作交流", note: "用于快速联系与进一步交流" },
   { label: "电话", value: "15716301203", status: "电话通道已连接", signal: "电话沟通与岗位联系", note: "所在地：北京，可沟通 AIGC 内容创作与 AI 漫剧岗位" },
 ];
