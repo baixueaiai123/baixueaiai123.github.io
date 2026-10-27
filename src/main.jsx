@@ -579,6 +579,18 @@ const cinemaProjectTemplates = [
     bilibiliCid: 43095427143,
     cover: { type: "image", src: "/ling-yun-cover.jpg", alt: "AI中式美学《凌云》视频封面" },
   },
+  {
+    id: "case-18",
+    title: "AI宣传片《雄安综合保税区》",
+    type: "AI Promotional Film",
+    category: "film",
+    tone: "园区形象宣传",
+    objective: "围绕雄安综合保税区的园区形象与开放发展主题，结合园区建筑、海关监管场景与全球贸易意象，通过 AI 影像串联空间展示与产业叙事，呈现现代化园区的枢纽定位与发展活力。",
+    duration: 66,
+    externalUrl: "https://www.bilibili.com/video/BV1bExT6eEKh/",
+    bilibiliCid: 43097197885,
+    cover: { type: "image", src: "/xiongan-promo-cover.jpg", alt: "AI宣传片《雄安综合保税区》视频封面" },
+  },
 ];
 
 const imageWorkGroups = [
