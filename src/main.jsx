@@ -292,6 +292,13 @@ function AboutCabin({ onClose, onNavigate }) {
                   </div>
                   <time>2025.10-2026.07</time>
                 </div>
+                <div className="experience-title experience-title-next">
+                  <div>
+                    <h3>漫剧制作工程师</h3>
+                    <p>北京技镜智能科技有限公司</p>
+                  </div>
+                  <time>2026.08-2026.10</time>
+                </div>
                 <ul>
                   <li><i>01</i><span>剧本分析、剧情拆解与分镜规划</span></li>
                   <li><i>02</i><span>角色、场景、道具视觉资产生成</span></li>

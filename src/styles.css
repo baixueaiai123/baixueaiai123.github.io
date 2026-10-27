@@ -1702,6 +1702,11 @@ h1 span,
   font-size: 9px;
   letter-spacing: .06em;
 }
+.experience-title-next {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(110, 191, 219, .11);
+}
 .brief-experience ul {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
