@@ -290,7 +290,7 @@ function AboutCabin({ onClose, onNavigate }) {
                     <h3>AI 漫剧制作师</h3>
                     <p>北京星梦启袁文化传媒有限公司 · 实习</p>
                   </div>
-                  <time>2025.10—2026.06</time>
+                  <time>2025.10—2026.08</time>
                 </div>
                 <ul>
                   <li><i>01</i><span>剧本分析、剧情拆解与分镜规划</span></li>
@@ -298,6 +298,13 @@ function AboutCabin({ onClose, onNavigate }) {
                   <li><i>03</i><span>角色一致性控制与镜头画面优化</span></li>
                   <li><i>04</i><span>AI 视频动态化、剪辑与成片包装</span></li>
                 </ul>
+                <div className="experience-title experience-title-next">
+                  <div>
+                    <h3>漫剧制作工程师</h3>
+                    <p>北京技镜智能科技有限公司</p>
+                  </div>
+                  <time>2026.08—2026.10</time>
+                </div>
               </article>
             </div>
             <button className="next-cabin brief-next-cabin" onClick={() => onNavigate(cabins[2])}>
