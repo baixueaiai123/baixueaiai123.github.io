@@ -532,6 +532,39 @@ const cinemaProjectTemplates = [
       { type: "gif", src: "", label: "氛围镜头" },
     ],
   },
+  {
+    id: "case-15",
+    title: "AI中式美学《山野行歌》",
+    type: "AI Chinese Aesthetics",
+    category: "film",
+    tone: "山野诗意影像",
+    objective: "以山林、云海与旷野为舞台，将古风人物与狼、马、白狮等意象交织，通过自然光影和人与灵兽的互动，呈现游历山野的自由感与东方诗意。",
+    duration: 46,
+    videoUrl: "/shanye-xingge.mp4",
+    cover: { type: "image", src: "/shanye-xingge-cover.jpg", alt: "AI中式美学《山野行歌》视频封面" },
+  },
+  {
+    id: "case-16",
+    title: "AI中式美学《雪龙吟》",
+    type: "AI Chinese Aesthetics",
+    category: "film",
+    tone: "雪域灵兽幻想",
+    objective: "围绕雪域与东方灵兽展开，串联龙、白狼、灵鹿与古风人物，以冷色雾气、毛发细节和广阔雪原，营造清冷、庄严的东方幻想氛围。",
+    duration: 39,
+    videoUrl: "/xue-long-yin.mp4",
+    cover: { type: "image", src: "/xue-long-yin-cover.jpg", alt: "AI中式美学《雪龙吟》视频封面" },
+  },
+  {
+    id: "case-17",
+    title: "AI中式美学《凌云》",
+    type: "AI Chinese Aesthetics",
+    category: "film",
+    tone: "空灵东方意境",
+    objective: "以云海宫阙、红墙、轻纱与孤松构建超现实东方空间，通过人物与宏大景观的尺度对比、红白配色与流动运镜，呈现凌云而行的空灵意境。",
+    duration: 41,
+    videoUrl: "/ling-yun.mp4",
+    cover: { type: "image", src: "/ling-yun-cover.jpg", alt: "AI中式美学《凌云》视频封面" },
+  },
 ];
 
 const imageWorkGroups = [
@@ -682,8 +715,11 @@ function PortfolioCabin({ onClose, onNavigate }) {
     return `${minutes}:${remaining}`;
   };
   const projectsByDuration = [...cinemaProjectTemplates].sort((a, b) => b.duration - a.duration);
-  const longProjects = projectsByDuration.filter((project) => project.duration >= 60);
-  const shortProjects = projectsByDuration.filter((project) => project.duration < 60);
+  const longProjects = [
+    ...projectsByDuration.filter((project) => project.duration >= 60 && project.category !== "film"),
+    ...cinemaProjectTemplates.filter((project) => project.category === "film"),
+  ];
+  const shortProjects = projectsByDuration.filter((project) => project.duration < 60 && project.category !== "film");
   const renderProjectCards = (projects, prefix) => projects.map((project, index) => {
     const embedUrl = getBilibiliEmbedUrl(project.externalUrl);
     return (
@@ -696,7 +732,17 @@ function PortfolioCabin({ onClose, onNavigate }) {
         transition={{ duration: .55, delay: (index % 3) * .06 }}
       >
         <div className="video-player-shell">
-          {embedUrl && playingProjects.has(project.id) ? (
+          {project.videoUrl && playingProjects.has(project.id) ? (
+            <video
+              src={project.videoUrl}
+              poster={project.cover.src}
+              aria-label={`${project.title} 视频播放器`}
+              controls
+              playsInline
+              autoPlay
+              preload="metadata"
+            />
+          ) : embedUrl && playingProjects.has(project.id) ? (
             <iframe
               src={embedUrl}
               title={`${project.title} 视频播放器`}
@@ -717,14 +763,16 @@ function PortfolioCabin({ onClose, onNavigate }) {
             </button>
           )}
           <span className="video-card-number">{prefix}{String(index + 1).padStart(2, "0")}</span>
-          <small className="video-duration">{formatDuration(project.duration)}</small>
+          {!(project.videoUrl && playingProjects.has(project.id)) && (
+            <small className="video-duration">{formatDuration(project.duration)}</small>
+          )}
         </div>
         <div className="video-project-copy">
           <small>{project.tone} / {project.type}</small>
           <h3>{project.title}</h3>
           <p>{project.objective}</p>
-          {project.externalUrl && (
-            <a href={project.externalUrl} target="_blank" rel="noreferrer">
+          {(project.externalUrl || project.videoUrl) && (
+            <a href={project.externalUrl || project.videoUrl} target="_blank" rel="noreferrer">
               查看完整作品 <i>↗</i>
             </a>
           )}
