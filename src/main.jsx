@@ -540,7 +540,7 @@ const cinemaProjectTemplates = [
     tone: "山野诗意影像",
     objective: "以山林、云海与旷野为舞台，将古风人物与狼、马、白狮等意象交织，通过自然光影和人与灵兽的互动，呈现游历山野的自由感与东方诗意。",
     duration: 46,
-    videoUrl: "/shanye-xingge.mp4",
+    externalUrl: "https://www.bilibili.com/video/BV1LyxT62E24/",
     cover: { type: "image", src: "/shanye-xingge-cover.jpg", alt: "AI中式美学《山野行歌》视频封面" },
   },
   {
@@ -551,7 +551,7 @@ const cinemaProjectTemplates = [
     tone: "雪域灵兽幻想",
     objective: "围绕雪域与东方灵兽展开，串联龙、白狼、灵鹿与古风人物，以冷色雾气、毛发细节和广阔雪原，营造清冷、庄严的东方幻想氛围。",
     duration: 39,
-    videoUrl: "/xue-long-yin.mp4",
+    externalUrl: "https://www.bilibili.com/video/BV1LyxT62Ep2/",
     cover: { type: "image", src: "/xue-long-yin-cover.jpg", alt: "AI中式美学《雪龙吟》视频封面" },
   },
   {
@@ -562,7 +562,7 @@ const cinemaProjectTemplates = [
     tone: "空灵东方意境",
     objective: "以云海宫阙、红墙、轻纱与孤松构建超现实东方空间，通过人物与宏大景观的尺度对比、红白配色与流动运镜，呈现凌云而行的空灵意境。",
     duration: 41,
-    videoUrl: "/ling-yun.mp4",
+    externalUrl: "https://www.bilibili.com/video/BV1dyxT61EHi/",
     cover: { type: "image", src: "/ling-yun-cover.jpg", alt: "AI中式美学《凌云》视频封面" },
   },
 ];
