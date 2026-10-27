@@ -1695,11 +1695,6 @@ h1 span,
   margin-top: 9px;
 }
 .experience-title h3 { margin: 0 0 4px; }
-.experience-title-next {
-  margin-top: 22px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(110, 191, 219, .12);
-}
 .experience-title p { color: #597584; font-size: 10px; }
 .experience-title time {
   flex: 0 0 auto;
