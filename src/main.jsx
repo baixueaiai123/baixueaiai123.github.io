@@ -375,6 +375,7 @@ const cinemaProjectTemplates = [
     objective: "以生成式 AI 完成护发产品的广告视觉表达，呈现产品质感、品牌氛围与短片叙事节奏。",
     duration: 17,
     externalUrl: "https://www.bilibili.com/video/BV1yuK86gEjB?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40156268249,
     cover: { type: "image", src: "/video-covers/jingfang.jpg", alt: "《精方》护发素TVC广告封面" },
     gallery: [
       { type: "image", src: "", label: "关键视觉" },
@@ -390,6 +391,7 @@ const cinemaProjectTemplates = [
     objective: "以中国传统年兽意象为灵感，通过生成式 AI 构建角色、场景与动态镜头，完成东方幻想风格短片。",
     duration: 173,
     externalUrl: "https://www.bilibili.com/video/BV16VKt6fEaG?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40148273718,
     cover: { type: "image", src: "/video-covers/nianshou.jpg", alt: "AI短片《年兽来啦》视频封面" },
     gallery: [
       { type: "image", src: "", label: "氛围帧" },
@@ -405,6 +407,7 @@ const cinemaProjectTemplates = [
     objective: "以登山与户外探索场景强化产品性能表达，通过生成式 AI 构建兼具力量感、速度感与商业质感的 TVC 影像。",
     duration: 11,
     externalUrl: "https://www.bilibili.com/video/BV1mRKm6aEoz?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40125204217,
     cover: { type: "image", src: "/video-covers/bde.jpg", alt: "《BDE登山杖》TVC广告封面" },
     gallery: [
       { type: "image", src: "", label: "产品视觉" },
@@ -420,6 +423,7 @@ const cinemaProjectTemplates = [
     objective: "以末日废土世界为背景，利用生成式 AI 构建生存角色、荒芜场景与危机镜头，呈现紧张且具有电影感的求生叙事。",
     duration: 126,
     externalUrl: "https://www.bilibili.com/video/BV1a4KU6rEhm?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40125008961,
     cover: { type: "image", src: "/video-covers/xunji.jpg", alt: "AI漫剧《寻迹》预告片视频封面" },
     gallery: [
       { type: "image", src: "", label: "废土视觉" },
@@ -435,6 +439,7 @@ const cinemaProjectTemplates = [
     objective: "围绕赛车竞技的速度、对抗与赛道氛围，通过生成式 AI 构建高速运镜、机械细节和充满冲击力的动作影像。",
     duration: 212,
     externalUrl: "https://www.bilibili.com/video/BV13bKU6gEpL?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40124876073,
     cover: { type: "image", src: "/video-covers/racing.jpg", alt: "AI漫剧《极速狂飙：燃魂赛道》片段视频封面" },
     gallery: [
       { type: "image", src: "", label: "赛车视觉" },
@@ -450,6 +455,7 @@ const cinemaProjectTemplates = [
     objective: "探索互动机制与 AI 影像叙事的结合，通过分支内容、视觉反馈与动态镜头，增强观众参与感和沉浸体验。",
     duration: 11,
     externalUrl: "https://www.bilibili.com/video/BV1UvKU6NEc3?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40124286524,
     cover: { type: "image", src: "/video-covers/interactive.jpg", alt: "互动AI视频封面" },
     gallery: [
       { type: "image", src: "", label: "互动视觉" },
@@ -465,6 +471,7 @@ const cinemaProjectTemplates = [
     objective: "将切水果挑战的即时反馈与 AI 影像结合，通过节奏化动作、视觉特效和互动机制，打造轻量且具有参与感的游戏化内容。",
     duration: 14,
     externalUrl: "https://www.bilibili.com/video/BV1LnKU61EAH?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40123369777,
     cover: { type: "image", src: "/video-covers/fruit.jpg", alt: "微信小游戏《水果切切乐》AI推广视频封面" },
     gallery: [
       { type: "image", src: "", label: "挑战视觉" },
@@ -480,6 +487,7 @@ const cinemaProjectTemplates = [
     objective: "探索生成式 AI 在造型切换与虚拟时尚表达中的应用，通过连续换装、人物一致性和节奏化转场呈现多样视觉风格。",
     duration: 11,
     externalUrl: "https://www.bilibili.com/video/BV1RpKU6VEzt?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40123302665,
     cover: { type: "image", src: "/video-covers/fashion.jpg", alt: "女装带货AI视频封面" },
     gallery: [
       { type: "image", src: "", label: "造型视觉" },
@@ -495,6 +503,7 @@ const cinemaProjectTemplates = [
     objective: "以东方仙侠世界为背景，通过生成式 AI 构建人物招式、能量特效与高速战斗镜头，呈现具有电影感的动作场面。",
     duration: 102,
     externalUrl: "https://www.bilibili.com/video/BV1B3gz6eE5Y?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40180712391,
     cover: { type: "image", src: "/video-covers/xiuxian.jpg", alt: "AI漫剧《逆天修仙录》片段视频封面" },
     gallery: [
       { type: "image", src: "", label: "仙侠视觉" },
@@ -510,6 +519,7 @@ const cinemaProjectTemplates = [
     objective: "以近未来东方都市为视觉背景，围绕角色冲突与世界观线索展开叙事，通过生成式 AI 构建赛博空间、连续角色和电影化动态镜头。",
     duration: 170,
     externalUrl: "https://www.bilibili.com/video/BV1PegZ6aEC8?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40336819162,
     cover: { type: "image", src: "/video-covers/chixiao.jpg", alt: "AI漫剧《赤霄：2077》片段视频封面" },
     gallery: [
       { type: "image", src: "", label: "世界观视觉" },
@@ -525,6 +535,7 @@ const cinemaProjectTemplates = [
     objective: "面向出海漫剧内容，以暗黑幻想世界观组织角色关系、戏剧冲突与场景氛围，呈现兼具连续叙事和国际化视觉风格的 AI 影像片段。",
     duration: 132,
     externalUrl: "https://www.bilibili.com/video/BV1CegZ6hEWV?vd_source=9e1a616b4678202c7a7a3998ae65ce48",
+    bilibiliCid: 40336753914,
     cover: { type: "image", src: "/video-covers/crown.jpg", alt: "AI出海漫剧《黑夜王冠》片段视频封面" },
     gallery: [
       { type: "image", src: "", label: "角色视觉" },
@@ -539,8 +550,9 @@ const cinemaProjectTemplates = [
     category: "film",
     tone: "山野诗意影像",
     objective: "以山林、云海与旷野为舞台，将古风人物与狼、马、白狮等意象交织，通过自然光影和人与灵兽的互动，呈现游历山野的自由感与东方诗意。",
-    duration: 46,
+    duration: 47,
     externalUrl: "https://www.bilibili.com/video/BV1LyxT62E24/",
+    bilibiliCid: 43095362356,
     cover: { type: "image", src: "/shanye-xingge-cover.jpg", alt: "AI中式美学《山野行歌》视频封面" },
   },
   {
@@ -552,6 +564,7 @@ const cinemaProjectTemplates = [
     objective: "围绕雪域与东方灵兽展开，串联龙、白狼、灵鹿与古风人物，以冷色雾气、毛发细节和广阔雪原，营造清冷、庄严的东方幻想氛围。",
     duration: 39,
     externalUrl: "https://www.bilibili.com/video/BV1LyxT62Ep2/",
+    bilibiliCid: 43095426399,
     cover: { type: "image", src: "/xue-long-yin-cover.jpg", alt: "AI中式美学《雪龙吟》视频封面" },
   },
   {
@@ -563,6 +576,7 @@ const cinemaProjectTemplates = [
     objective: "以云海宫阙、红墙、轻纱与孤松构建超现实东方空间，通过人物与宏大景观的尺度对比、红白配色与流动运镜，呈现凌云而行的空灵意境。",
     duration: 41,
     externalUrl: "https://www.bilibili.com/video/BV1dyxT61EHi/",
+    bilibiliCid: 43095427143,
     cover: { type: "image", src: "/ling-yun-cover.jpg", alt: "AI中式美学《凌云》视频封面" },
   },
 ];
@@ -664,7 +678,8 @@ const allImageWorks = imageWorkGroups.flatMap((group) =>
 );
 
 function PortfolioCabin({ onClose, onNavigate }) {
-  const [playingProjects, setPlayingProjects] = React.useState(() => new Set());
+  const [activeProjectId, setActiveProjectId] = React.useState(null);
+  const [playerVersion, setPlayerVersion] = React.useState(0);
   const [selectedArtwork, setSelectedArtwork] = React.useState(null);
   const navigateArtwork = (direction) => {
     setSelectedArtwork((current) => {
@@ -696,18 +711,18 @@ function PortfolioCabin({ onClose, onNavigate }) {
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, []);
-  const getBilibiliEmbedUrl = (url) => {
-    const bvid = url?.match(/video\/(BV[\w]+)/)?.[1];
-    return bvid
-      ? `https://player.bilibili.com/player.html?isOutside=true&bvid=${bvid}&p=1&high_quality=1&danmaku=0&autoplay=0`
-      : "";
+  const getBilibiliEmbedUrl = (project) => {
+    const bvid = project.externalUrl?.match(/video\/(BV[\w]+)/)?.[1];
+    if (!bvid || !project.bilibiliCid) return "";
+    const parameters = new URLSearchParams({
+      isOutside: "true", bvid, cid: String(project.bilibiliCid),
+      p: "1", danmaku: "0", autoplay: "1",
+    });
+    return `https://player.bilibili.com/player.html?${parameters}`;
   };
   const playProject = (projectId) => {
-    setPlayingProjects((current) => {
-      const next = new Set(current);
-      next.add(projectId);
-      return next;
-    });
+    setActiveProjectId(projectId);
+    setPlayerVersion(0);
   };
   const formatDuration = (seconds) => {
     const minutes = Math.floor(seconds / 60);
@@ -721,7 +736,8 @@ function PortfolioCabin({ onClose, onNavigate }) {
   ];
   const shortProjects = projectsByDuration.filter((project) => project.duration < 60 && project.category !== "film");
   const renderProjectCards = (projects, prefix) => projects.map((project, index) => {
-    const embedUrl = getBilibiliEmbedUrl(project.externalUrl);
+    const embedUrl = getBilibiliEmbedUrl(project);
+    const isPlaying = activeProjectId === project.id;
     return (
       <motion.article
         className="video-project-card"
@@ -732,21 +748,13 @@ function PortfolioCabin({ onClose, onNavigate }) {
         transition={{ duration: .55, delay: (index % 3) * .06 }}
       >
         <div className="video-player-shell">
-          {project.videoUrl && playingProjects.has(project.id) ? (
-            <video
-              src={project.videoUrl}
-              poster={project.cover.src}
-              aria-label={`${project.title} 视频播放器`}
-              controls
-              playsInline
-              autoPlay
-              preload="metadata"
-            />
-          ) : embedUrl && playingProjects.has(project.id) ? (
+          {embedUrl && isPlaying ? (
             <iframe
+              key={`${project.id}-${playerVersion}`}
               src={embedUrl}
+              referrerPolicy="no-referrer"
               title={`${project.title} 视频播放器`}
-              loading="lazy"
+              loading="eager"
               scrolling="no"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
@@ -763,7 +771,7 @@ function PortfolioCabin({ onClose, onNavigate }) {
             </button>
           )}
           <span className="video-card-number">{prefix}{String(index + 1).padStart(2, "0")}</span>
-          {!(project.videoUrl && playingProjects.has(project.id)) && (
+          {!isPlaying && (
             <small className="video-duration">{formatDuration(project.duration)}</small>
           )}
         </div>
@@ -771,10 +779,20 @@ function PortfolioCabin({ onClose, onNavigate }) {
           <small>{project.tone} / {project.type}</small>
           <h3>{project.title}</h3>
           <p>{project.objective}</p>
-          {(project.externalUrl || project.videoUrl) && (
-            <a href={project.externalUrl || project.videoUrl} target="_blank" rel="noreferrer">
+          {project.externalUrl && (
+            <a href={project.externalUrl} target="_blank" rel="noreferrer">
               查看完整作品 <i>↗</i>
             </a>
+          )}
+          {isPlaying && (
+            <button
+              className="video-retry-button"
+              type="button"
+              aria-label={`重新加载 ${project.title}`}
+              onClick={() => setPlayerVersion((version) => version + 1)}
+            >
+              重新加载播放器
+            </button>
           )}
         </div>
       </motion.article>
