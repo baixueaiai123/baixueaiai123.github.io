@@ -591,6 +591,18 @@ const cinemaProjectTemplates = [
     bilibiliCid: 43097197885,
     cover: { type: "image", src: "/xiongan-promo-cover.jpg", alt: "AI宣传片《雄安综合保税区》视频封面" },
   },
+  {
+    id: "case-19",
+    title: "AI剧情TVC广告《puco云吻唇霜》",
+    type: "AI Storytelling TVC",
+    category: "film",
+    tone: "剧情式美妆广告",
+    objective: "以婚礼化妆场景为叙事切入点，将人物对话、情绪推进与唇霜产品展示融入连续剧情，通过 AI 构建角色、场景和动态镜头，呈现兼具生活化叙事与美妆品牌表达的 TVC 广告。",
+    duration: 227,
+    externalUrl: "https://www.bilibili.com/video/BV1CVxg6eE2P/",
+    bilibiliCid: 43099357659,
+    cover: { type: "image", src: "/puco-lip-cream-cover.jpg", alt: "AI剧情TVC广告《puco云吻唇霜》视频封面" },
+  },
 ];
 
 const imageWorkGroups = [
