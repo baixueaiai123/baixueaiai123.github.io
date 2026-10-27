@@ -179,7 +179,7 @@ const timeline = [
 ];
 
 const directorSystems = [
-  { year: "2025.10—2026.08", title: "AI 漫剧制作师", detail: "北京星梦启袁文化传媒有限公司" },
+  { year: "2025.10-2026.07", title: "AI 漫剧制作师", detail: "北京星梦启袁文化传媒有限公司" },
   { year: "2026.08—2026.10", title: "漫剧制作工程师", detail: "北京技镜智能科技有限公司" },
   { year: "100+ 集", title: "AI 漫剧项目", detail: "剧本拆解 / 角色设定 / 动态成片" },
   { year: "40+ 条", title: "AI 商业广告", detail: "视觉方案 / AI 生成 / 后期包装" },
@@ -290,7 +290,7 @@ function AboutCabin({ onClose, onNavigate }) {
                     <h3>AI 漫剧制作师</h3>
                     <p>北京星梦启袁文化传媒有限公司 · 实习</p>
                   </div>
-                  <time>2025.10—2026.06</time>
+                  <time>2025.10-2026.07</time>
                 </div>
                 <ul>
                   <li><i>01</i><span>剧本分析、剧情拆解与分镜规划</span></li>
