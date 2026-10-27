@@ -1581,7 +1581,7 @@ h1 span,
 }
 .profile-career-timeline .timeline-line {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
   margin: 18px 0 0;
   padding: 0;
