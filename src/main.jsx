@@ -610,6 +610,30 @@ const cinemaProjectTemplates = [
     bilibiliCid: 43099357659,
     cover: { type: "image", src: "/puco-lip-cream-cover.jpg", alt: "AI剧情TVC广告《puco云吻唇霜》视频封面" },
   },
+  {
+    id: "case-20",
+    title: "《Dior》化妆品TVC广告",
+    type: "AITVC Advertisement",
+    category: "tvc",
+    tone: "精致美妆影像",
+    objective: "以粉色系、玫瑰花瓣与粉质细节构建柔美的产品氛围，通过 AI 呈现化妆品特写、材质光泽与细腻构图，突出美妆产品的精致质感和品牌视觉风格。",
+    duration: 15,
+    externalUrl: "https://www.bilibili.com/video/BV1kxxj6SE9V/",
+    bilibiliCid: 43118561594,
+    cover: { type: "image", src: "/dior-cosmetics-cover.jpg", alt: "《Dior》化妆品TVC广告封面" },
+  },
+  {
+    id: "case-21",
+    title: "《Munch it》零食TVC广告",
+    type: "AITVC Advertisement",
+    category: "tvc",
+    tone: "活力零食影像",
+    objective: "以零食的酥脆纹理、飞散碎屑与高对比色彩为视觉重点，通过 AI 构建产品特写与动态展示，强化口感联想和画面冲击力，呈现轻快、有活力的零食品牌氛围。",
+    duration: 21,
+    externalUrl: "https://www.bilibili.com/video/BV1Wsxj6HEtc/",
+    bilibiliCid: 43118627538,
+    cover: { type: "image", src: "/munch-it-snack-cover.jpg", alt: "《Munch it》零食TVC广告封面" },
+  },
 ];
 
 const imageWorkGroups = [
@@ -762,10 +786,13 @@ function PortfolioCabin({ onClose, onNavigate }) {
   };
   const projectsByDuration = [...cinemaProjectTemplates].sort((a, b) => b.duration - a.duration);
   const longProjects = [
-    ...projectsByDuration.filter((project) => project.duration >= 60 && project.category !== "film"),
+    ...projectsByDuration.filter((project) => project.duration >= 60 && project.category !== "film" && project.category !== "tvc"),
     ...cinemaProjectTemplates.filter((project) => project.category === "film"),
   ];
-  const shortProjects = projectsByDuration.filter((project) => project.duration < 60 && project.category !== "film");
+  const shortProjects = [
+    ...projectsByDuration.filter((project) => project.duration < 60 && project.category !== "film" && project.category !== "tvc"),
+    ...cinemaProjectTemplates.filter((project) => project.category === "tvc"),
+  ];
   const renderProjectCards = (projects, prefix) => projects.map((project, index) => {
     const embedUrl = getBilibiliEmbedUrl(project);
     const isPlaying = activeProjectId === project.id;
