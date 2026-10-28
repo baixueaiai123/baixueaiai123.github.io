@@ -634,6 +634,30 @@ const cinemaProjectTemplates = [
     bilibiliCid: 43118627538,
     cover: { type: "image", src: "/munch-it-snack-cover.jpg", alt: "《Munch it》零食TVC广告封面" },
   },
+  {
+    id: "case-22",
+    title: "AI出海仿真人剧《丑女孩》片段",
+    type: "AI Realistic Drama",
+    category: "film",
+    tone: "仿真人情感叙事",
+    objective: "以女孩的人物处境与关系冲突为叙事线索，通过 AI 构建仿真人角色、生活化场景与情绪特写，注重人物一致性和镜头衔接，呈现面向海外受众的短剧片段。",
+    duration: 60,
+    externalUrl: "https://www.bilibili.com/video/BV1TExj6xEG3/",
+    bilibiliCid: 43119020100,
+    cover: { type: "image", src: "/ugly-girl-cover.jpg", alt: "AI出海仿真人剧《丑女孩》片段视频封面" },
+  },
+  {
+    id: "case-23",
+    title: "AI出海仿真人剧《不小心爱上了哈迪斯》",
+    type: "AI Realistic Drama",
+    category: "film",
+    tone: "暗黑幻想爱情",
+    objective: "以暗黑幻想世界与人物情感关系为线索，通过 AI 构建仿真人角色、神秘场景和电影化光影，结合英文对白与情绪特写，呈现兼具幻想氛围和连续叙事的出海短剧内容。",
+    duration: 81,
+    externalUrl: "https://www.bilibili.com/video/BV1yHxj6pEdC/",
+    bilibiliCid: 43119216335,
+    cover: { type: "image", src: "/falling-for-hades-cover.jpg", alt: "AI出海仿真人剧《不小心爱上了哈迪斯》视频封面" },
+  },
 ];
 
 const imageWorkGroups = [
