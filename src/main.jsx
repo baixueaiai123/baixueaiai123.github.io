@@ -658,6 +658,18 @@ const cinemaProjectTemplates = [
     bilibiliCid: 43119216335,
     cover: { type: "image", src: "/falling-for-hades-cover.jpg", alt: "AI出海仿真人剧《不小心爱上了哈迪斯》视频封面" },
   },
+  {
+    id: "case-24",
+    title: "AI剧情IP形象《绷绷》",
+    type: "AI IP Character Story",
+    category: "film",
+    tone: "萌系IP剧情叙事",
+    objective: "围绕萌系 IP 角色“绷绷”的上岗经历，将绷带造型、角色表情和人物互动融入职场日常，通过 AI 构建连续场景与动态镜头，展现角色一致性、亲和力和剧情化表达。",
+    duration: 133,
+    externalUrl: "https://www.bilibili.com/video/BV1SVxj6ZEK5/",
+    bilibiliCid: 43121049688,
+    cover: { type: "image", src: "/beng-beng-ip-cover.jpg", alt: "AI剧情IP形象《绷绷》视频封面" },
+  },
 ];
 
 const imageWorkGroups = [
